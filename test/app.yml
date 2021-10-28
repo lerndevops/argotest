@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: kubeserve
 spec:
-  replicas: 5
+  replicas: 3
   minReadySeconds: 10 # wait for 10 sec before pod is ready going to next
   strategy:
     type: RollingUpdate
